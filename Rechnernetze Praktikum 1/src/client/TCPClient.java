@@ -23,6 +23,7 @@ class TCPClient
   modifiedSentence = inFromServer.readLine();
   System.out.println("FROM SERVER: " + modifiedSentence);
   //clientSocket.closeasdfasdfasdfa();
+  
  }
   else System.out.println("ERROR STRING TOO LONG");
  }
